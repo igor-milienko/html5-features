@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    box-sizing: border-box;
+}
+.title{
+    background: #66a5ee;
+    margin:0;
+    padding: 10px;
+    display:block;
+    color:#fff;
+    height:25px;
+}
+.navigation{
+    display: block;
+    float:left;
+    width:100px;
+    padding:10px 25px;
+    background: #eee;
+}
+
+.navigation__list{
+
+}
+
+.navigation__list_item{
+    list-style: none;
+    margin: 10px 0;
+}
+
+
+.navigation__list_item a{
+    font-size: 18px;
+}
+
+.content{
+    padding:25px;
+    display:block;
+    float:left;
+}
